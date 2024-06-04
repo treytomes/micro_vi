@@ -9,3 +9,13 @@ globals.iif = function(value, ifTrue, ifFalse)
 	if value then return ifTrue
 	return ifFalse
 end function
+
+// Note how system-defined symbols can be extended.
+//
+// e.g. env.addImportPath "./crafting"
+env.addImportPath = function(path)
+    // `self` == `env`
+    if not self.importPaths.contains(path) then
+        self.importPaths.push path
+    end if
+end function
