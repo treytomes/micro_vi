@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "language": "en_US",
+    "useGitignore": true,
+    "cache": {
+        "useCache": true
+    },
+    "files": [
+        "**/*.ms"
+    ],
+    "dictionaries": [
+        "softwareTerms",
+        "bash",
+        "git",
+        "node",
+        "npm"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "cspell.json",
+        "**/.gitignore",
+        "**/*.png",
+        "**/*.wav"
+    ],
+    "words": [
+        "Blockable",
+        "bossdeath",
+        "Knockback",
+        "levelgen",
+        "ludum",
+        "Markus",
+        "Minicraft",
+        "monsterhurt",
+        "Persson",
+        "playerhurt",
+        "Shvl",
+        "Swrd"
+    ],
+    "flagWords": [],
+    "enableFiletypes": [
+        "miniscript"
+    ]
+}
